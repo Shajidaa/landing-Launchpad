@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* common style */
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.btn-primary{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border: none;
+    padding:16px 30px ;
+    border-radius: 20px;
+}
+.btn-primary:hover{
+  background-image: linear-gradient( to right, blueviolet, #f825ff );
+  color: black;
+    font-size: 20px;
+    
+}
+/* hero-section */
+
+.hero-section{
+    background-image: url(./assets/Hero-bg.png);
+    width: 1440px;
+    height: 698px;
+    border: 2px solid blueviolet;
+   
+}
+.hero{
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding: 50px  150px; */
+    cursor: pointer;
+    padding:  60px 0px ;
+}
+
+.hero-logo{
+    font-size: 34px;
+    font-weight: bold;
+    color:blue;
+}
+
+/* hero-banner */
+.hero-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-banner h1{
+     font-size: 54px;
+    font-weight: bold;
+    color: rgb(3, 0, 0);
+    width: 75%;
+    text-align: center;
+    margin-top:50px ;
+   margin-bottom: 30px;
+}
+/* action */
+.action{
+    display: flex;
+}
+.action-h1{
+    font-weight: bold;
+    color: rgb(3, 0, 0);
+}
