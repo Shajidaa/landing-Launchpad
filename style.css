@@ -166,6 +166,7 @@
    border-radius: 20px;
     padding: 20px;
     background-color:#4d47ff91 ;
+      box-shadow: 5px 5px 5px 5px rgba(0,0, 0, 0.123) ;
    
 }
 .card text h3{
