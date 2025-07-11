@@ -182,8 +182,26 @@
  /* <!-- Ready to focus better --> */
  .focus{
     text-align: center;
- }
 
+ }
+ .focus h1{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 20px;
+ }
+.focus p{
+    font-size: 16px;
+    font-weight: regular;
+    margin-bottom: 20px;
+    color: #4c4c57;
+}
+.focus button{
+     margin-bottom: 20px;
+}
+
+.focus img{
+    border-radius: 50px;
+}
 
 
 /* Users-Feedback-footer */
@@ -215,32 +233,35 @@
 .touch-section{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-top: 100px;
      margin-bottom: 100px;
-     border: 2px solid pink;
-     padding: 0px;
+     padding: 70px 0px;
+     
 }
 
 .touch-section h1{
-    font-size:80px ;
+    font-size:90px ;
     font-weight:bold ;
-   position: relative;
-   right: 130px;
-     
+    padding: 100px 0px;
+    position: relative;
+    left: -58px;
+    
+  
+    
 }
 
 /* form-section */
 .form-section{
+    width: 457px;
     display: flex;
     flex-direction: column;
-    /* position: relative;
-    left: 50px ; */
+    
    
 }
 .form-section label{
     font-size:18px ;
     font-weight:medium ;
+    width: 100%;
     
   
 }
@@ -248,23 +269,34 @@
     padding:20px ;
     border: 1px solid #2524322f;
     border-radius: 10px;
-    /* width: 118%; */
+    width: 100%;
+    
 
 }
  .form-section textarea {
-     padding:30px ;
+     padding:40px 23px;
     border: 1px solid #2524322f;
     border-radius: 10px;
-    /* width: 105%; */
+     background-color: #ffffff;
+      width: 100%;
  }
  .btn-form {
+    width: 110%;
     font-size: 16px;
     font-weight: bold;
-    color: #fff;
-    padding: 10px 80px;
-    /* position: relative;
-    left: 30px ; */
+    background-color: blue;
+    padding: 15px 100px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    
  }
+  .btn-form:hover{
+    background-image: linear-gradient( to right, blueviolet, #f825ff );
+  color: black;
+    font-size: 20px;
+    cursor: pointer;
+  }
 
  /* footer-section */
 
