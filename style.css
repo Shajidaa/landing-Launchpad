@@ -52,17 +52,15 @@
     background-image: url(./assets/Hero-bg.png);
     
     height: 698px;
-    border: 2px solid blueviolet;
+   
    
 }
 .hero{
       width: 1140px;
     display: flex;
      justify-content: space-evenly;
-    gap: 650px;
-   
-   border: 2px solid black;
-   padding: 20px 0px ;
+    gap:900px;
+   padding: 30px 0px ;
     
 }
 
@@ -78,6 +76,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    margin-top: 150px;
 }
 .hero-banner h1{
      font-size: 54px;
@@ -120,6 +120,7 @@
 .productive{
     background-color:#4d47ff91 ;
     padding: 50px 100px;
+    border-radius: 20px;
 }
 .productive h2{
     text-align: center;
@@ -142,3 +143,155 @@
     font-weight:regular;
     color: #00000069;
 }
+
+/* Users’ Feedback Section */
+
+.Users-Feedback h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight:bold;
+    color: #252432;
+    margin-top: 130px;
+}
+/* cards */
+.cards{
+    display: flex;
+   margin-top: 50px;
+   margin-bottom: 130px;
+   gap:20px ;
+    
+}
+.card{
+    width: 366px;
+   border-radius: 20px;
+    padding: 20px;
+    background-color:#78aae2ef;
+   
+}
+.card text h3{
+    font-size: 24px;
+    font-weight:600;
+    color: #252432;
+}
+.card text p{
+    font-size: 16px;
+    font-weight:regular;
+    color: #252432b4;
+    
+}
+ /* <!-- Ready to focus better --> */
+ .focus{
+    text-align: center;
+ }
+
+
+
+/* Users-Feedback-footer */
+.Users-Feedback-footer{
+
+    display: flex;
+   width: 200px;
+   position: relative;
+   left:-65px;
+}
+.Users-Feedback-footer img{
+    border-radius:100%;
+}
+.Users-Feedback-footer h4{
+    color: #252432;
+}
+.Users-Feedback-footer p{
+    color: #25243260;
+}
+
+/*  Ready to focus better */
+.focus{
+    text-align: center;
+}
+
+
+/* Let’s Get In Touch Section */
+
+.touch-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+     margin-bottom: 100px;
+     border: 2px solid pink;
+     padding: 0px;
+}
+
+.touch-section h1{
+    font-size:80px ;
+    font-weight:bold ;
+   position: relative;
+   right: 130px;
+     
+}
+
+/* form-section */
+.form-section{
+    display: flex;
+    flex-direction: column;
+    /* position: relative;
+    left: 50px ; */
+   
+}
+.form-section label{
+    font-size:18px ;
+    font-weight:medium ;
+    
+  
+}
+.form-section input{
+    padding:20px ;
+    border: 1px solid #2524322f;
+    border-radius: 10px;
+    /* width: 118%; */
+
+}
+ .form-section textarea {
+     padding:30px ;
+    border: 1px solid #2524322f;
+    border-radius: 10px;
+    /* width: 105%; */
+ }
+ .btn-form {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 80px;
+    /* position: relative;
+    left: 30px ; */
+ }
+
+ /* footer-section */
+
+ .footer-section{
+    width:  1440px;
+    background-color: #ffffffd5;
+    text-align: center;
+ }
+ .footer-section h1{
+    font-size:100px ;
+    font-weight: bold ;
+    color: blue;
+
+ }
+ .footer-section p{
+    font-size:16px ;
+    font-weight: regular ;
+    color: #8987A1;
+ }
+ .footer-section div{
+  border: 2px solid black;
+   padding: 10px;
+  
+ }
+ .footer-section a{
+    color: #8987A1;
+    text-decoration: none;
+     font-size:16px ;
+    font-weight: regular ;
+    }
