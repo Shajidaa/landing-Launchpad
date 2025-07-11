@@ -165,7 +165,7 @@
     width: 366px;
    border-radius: 20px;
     padding: 20px;
-    background-color:#78aae2ef;
+    background-color:#4d47ff91 ;
    
 }
 .card text h3{
@@ -317,8 +317,11 @@
     color: #8987A1;
  }
  .footer-section div{
-  border: 2px solid black;
-   padding: 10px;
+
+   padding: 30px;
+   width:  513px ;
+   display: flex;
+   justify-content: space-between;
   
  }
  .footer-section a{
@@ -326,4 +329,6 @@
     text-decoration: none;
      font-size:16px ;
     font-weight: regular ;
+    margin-bottom: 100px;
+
     }
