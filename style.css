@@ -1,4 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap');
+
+/* fonts */
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+.font-roboto-slab {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  
+}
+
+
+
 
 /* common style */
 *{
@@ -7,11 +29,7 @@
     box-sizing: 0;
 }
 
-.font-open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
+
 .btn-primary{
     font-size: 16px;
     font-weight: bold;
@@ -25,23 +43,27 @@
   background-image: linear-gradient( to right, blueviolet, #f825ff );
   color: black;
     font-size: 20px;
+    cursor: pointer;
     
 }
 /* hero-section */
 
 .hero-section{
     background-image: url(./assets/Hero-bg.png);
-    width: 1440px;
+    
     height: 698px;
     border: 2px solid blueviolet;
    
 }
 .hero{
+      width: 1140px;
     display: flex;
-    /* justify-content: space-between; */
-    /* padding: 50px  150px; */
-    cursor: pointer;
-    padding:  60px 0px ;
+     justify-content: space-evenly;
+    gap: 650px;
+   
+   border: 2px solid black;
+   padding: 20px 0px ;
+    
 }
 
 .hero-logo{
@@ -66,11 +88,57 @@
     margin-top:50px ;
    margin-bottom: 30px;
 }
+
+/* Main */
+.container{
+    width: 1140px;
+}
 /* action */
+
 .action{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:100px 0px ;
 }
-.action-h1{
+.action h1{
+    font-size: 45px;
     font-weight: bold;
     color: rgb(3, 0, 0);
+}
+.action p{
+    font-size: 24px;
+    font-weight:regular;
+    color: rgb(122, 117, 117);
+    padding: 24px 0px ;
+}
+.action img{
+    border-radius: 50px;
+}
+/* productive */
+
+.productive{
+    background-color:#4d47ff91 ;
+    padding: 50px 100px;
+}
+.productive h2{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+}
+.productive-num{
+    
+    display: flex;
+    gap: 160px;
+    margin-top: 40px;
+}
+.productive-num h1{
+   font-size: 80px;
+    font-weight: 800;
+    color: blue;
+}
+.productive-num p{
+    font-size: 16px;
+    font-weight:regular;
+    color: #00000069;
 }
